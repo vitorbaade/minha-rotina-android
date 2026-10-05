@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     private fun adicionarAtividade() {
         val atividade = edtAtividade.text.toString()
 
-        if (atividade.isBlank()) {
+        if (atividade.isNotBlank()) {
             atividades.add(atividade)
             atualizarTela()
             edtAtividade.text.clear()
