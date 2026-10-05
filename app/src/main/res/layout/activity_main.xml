@@ -13,7 +13,7 @@
             android:id="@+id/tvTitulo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Minha Rotina"
+            android:text="MinhaRotina"
             android:textSize="28sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -64,5 +64,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
